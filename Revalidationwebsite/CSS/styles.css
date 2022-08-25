@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+    
+    font-family: monospace;
+   
+    
+}
+
+.parent{
+    height: 80vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.child{
+    height: 200px;
+    width:  600px;
+    border: 2px solid rgba(128, 128, 128, 0.192);
+    box-shadow: 5px 2px 20px 1px rgba(128, 128, 128, 0.753) ;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+.login-form{
+ 
+    margin: 0 15px 0 15px;
+    padding: 25px 20px 0px 15px ;
+}
+.login-form div{
+    margin-bottom: 10px;
+}
+input{
+    width: 420px;
+    margin-left: 10px ;
+    padding: 5px;
+}
+.username{
+    margin: 0 6px;
+}
+.password{
+    margin: 0 9px;
+}
+
+button{
+    margin: 10px 20px 0px 35px;
+    padding: 6px 0;
+    width: 520px;
+    background-color: red;
+    border: 0px ;
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+
+/* nav bar*/
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav img{
+    width: 200px;
+    margin: 0 25px;
+    padding: 0 25px;
+}
+nav h1{
+    
+    padding: 20px 0 0 100px;
+    margin: 20px 0 0 150px;
+    /* top right btm left*/
+}

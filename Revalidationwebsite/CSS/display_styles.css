@@ -1,0 +1,246 @@
+body{
+    background-color: rgba(247, 249, 249, 0.798);
+    margin: 0;
+    font-family: monospace;
+    
+}
+/* nav bar*/
+.container{
+    display: flex;
+   justify-content: center;
+   background-color: rgb(31, 30, 30);
+
+}
+nav{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav img{
+    width: 17%;
+    margin: 0 25px;
+    padding: 0 25px;
+
+    
+}
+.logo{
+    width: 80%;
+
+
+}
+.signout{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signout p {
+    background-color: #7dcacd;
+    width:50%;
+    height: 46%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    border-radius: 5px;
+
+
+}
+
+.signout button{
+    
+    
+    background-color: rgb(39, 21, 21);
+    width: 50%;
+    height: 53%;
+    border: 0px ;
+   
+    
+    
+    
+}
+/* main page */
+.parent{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+/* nav bar option */
+.nav_bar{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(31, 30, 30);
+    padding-top: 5px ;
+    display: flex;
+
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .nav_bar form input{
+    width: 14%;
+    height: 47% ;
+    margin:0 0.5%;
+    background-color: #7dcacd;
+    font-family: monospace;
+    border: 2px solid rgba(113, 212, 237, 0.192);
+    border-radius: 5px;
+}
+
+/* dashboard*/
+main{
+    width: 100%;
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.agent_stc{
+    width: 80%;
+    height: 90%;
+    border: 1px solid;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.agent_search{
+     width: 80%;
+     height: 8%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.agent_search label{
+    margin: 0 1%;
+}
+.agent_search input{
+    margin: 0 1%;
+    width: 18%;
+    height: 60%;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+}
+.agent_search input[type=submit]{
+    margin: 0 1%;
+    width: 20%;
+    height: 90%;
+}
+
+.display_agent{
+    width: 100%;
+    height: 76%;
+    margin-top: 0.5%;
+    overflow-y: scroll;
+    
+}
+table{
+    
+    width: 100%;
+    height: 100%;
+}
+
+table th{
+    background-color: rgba(143, 231, 234, 0.74);
+    border: 2px solid rgba(113, 212, 237, 0.192);
+    box-shadow: 5px 2px 20px 1px rgba(128, 128, 128, 0.753) ;
+    width: 9%;   
+    
+}
+.nbr{
+    width: 15%;
+}
+.display_agent table  {
+  
+    display: inline-block;
+    width: 100%;
+}
+td{
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.428);
+     
+
+
+}
+.statistic_agent{
+     width: 100%;
+     height: 15%;
+     margin: 0;
+}
+.form_data{
+    width: 100%;
+    
+}
+
+.statistic_agent  label{
+    width: 17%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+border: 1px solid gray;}
+.export{
+    text-align: center;
+    width: 25%;
+    height: 38%;
+}
+.dashboard{
+    width: 80%;
+    height: 100%;
+    border: 1px solid;
+    margin-top: 20px;
+    
+}
+.search_dashboard{
+    border: 1px solid;
+     width: 100%;
+     height: 8%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.search_dashboard label{
+    margin: 0 1%;
+}
+.search_dashboard input{
+    margin: 0 1%;
+    width: 18%;
+    height: 60%;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+}
+.search_dashboard input[type=submit]{
+    margin: 0 1%;
+    width: 20%;
+    height: 75%;
+}
+
+.charts{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    
+}
+.chart_one{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.chart_two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
